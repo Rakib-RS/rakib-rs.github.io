@@ -12,3 +12,9 @@
     padding: 10px 10px;
    
 }
+.educontainer{
+    display: flex;
+    flex-direction: row;
+
+}
+
