@@ -3,6 +3,7 @@ import Header from "./components/Header";
 import "./App.css";
 import AboutMe from "./components/AboutMe";
 import Skills from "./components/Skills";
+import Education from "./components/Education";
 
 class App extends Component {
   render() {
@@ -12,6 +13,7 @@ class App extends Component {
         <div className="mycontainer">
           <AboutMe />
           <Skills/>
+          <Education/>
         </div>
       </div>
     );
