@@ -1,0 +1,21 @@
+.skills{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    justify-content: center;
+    text-align: center;
+}
+.header{
+    padding: 20px 10px;
+}
+.skillcontainer{
+    display: flex;
+    flex-direction: row;
+}
+.left{
+    display: flex;
+    width: 50%;
+}
+.right{
+    display: flex;
+}

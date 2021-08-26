@@ -1,0 +1,94 @@
+.aboutme{
+    
+    background-color:yellow;
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+    
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+img{
+    border-radius: 50%;
+    height: 180px;
+}
+.leftSide{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    background-color: violet;
+    width: 50%;
+    justify-content: center;
+}
+.rightSide{
+    display: flex;
+    
+    background-color: tomato;
+    
+    margin-left: 10px;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+
+}
+.rightSide h4,h6{
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
+.picutre{
+    width: 50%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+}
+.info{
+    display: flex;
+    flex-direction: row;
+}
+
+.infoLeft{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    background:turquoise;
+    
+}
+.infoRight{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    background: blue;
+    
+}
+.download{
+    margin-top: 40px;
+    justify-content: center;
+    text-align: center;
+}
+.download button{
+    background: rgb(153, 0, 255);
+    border-radius: 10px;
+}
+.linkbar{
+    margin-top: 10px;
+}
+@media (max-width :768px){
+    .aboutme{
+        display: flex;
+        flex-direction: column;
+    }
+    .picutre{
+        width: 50%;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        border-radius: 50%;
+    }
+    .leftSide,.rightSide{
+        width: 100%;
+    }
+}
