@@ -4,6 +4,7 @@ import "./App.css";
 import AboutMe from "./components/AboutMe";
 import Skills from "./components/Skills";
 import Education from "./components/Education";
+import Projects from "./components/Projects";
 
 class App extends Component {
   render() {
@@ -14,6 +15,7 @@ class App extends Component {
           <AboutMe />
           <Skills/>
           <Education/>
+          <Projects/>
         </div>
       </div>
     );
