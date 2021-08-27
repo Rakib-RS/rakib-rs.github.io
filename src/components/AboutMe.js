@@ -1,5 +1,4 @@
 import React from "react";
-import PropTypes from "prop-types";
 import "./AboutMe.css";
 import url from "./assests/user.jpg";
 const AboutMe = (props) => {
@@ -77,6 +76,5 @@ const AboutMe = (props) => {
   );
 };
 
-AboutMe.propTypes = {};
 
 export default AboutMe;

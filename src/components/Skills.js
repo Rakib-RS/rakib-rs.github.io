@@ -1,5 +1,4 @@
 import React from "react";
-import PropTypes from "prop-types";
 import "./Skills.css";
 const Skills = (props) => {
   return (
@@ -79,6 +78,5 @@ const Skills = (props) => {
   );
 };
 
-Skills.propTypes = {};
 
 export default Skills;

@@ -1,5 +1,4 @@
 import React from 'react'
-import PropTypes from 'prop-types'
 import './Education.css'
 const Education = props => {
     return (
@@ -13,8 +12,6 @@ const Education = props => {
     )
 }
 
-Education.propTypes = {
 
-}
 
 export default Education;
